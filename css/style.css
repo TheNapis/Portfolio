@@ -1,0 +1,134 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.top-nav {
+    height: 70px;
+    width: 100%;
+    background: #502c2c;
+    top: 0;
+    position: fixed;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.top-nav nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.top-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.top-nav li {
+    margin: 0 15px;
+}
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+    padding: 10px 5px;
+}
+
+.top-nav a:hover {
+    color: #db3434;
+}
+
+/* Main Content */
+main {
+    padding-top: 90px; /* To account for fixed navbar */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+section {
+    margin-bottom: 50px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+}
+
+section h1 {
+    color: #502c2c;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #db3434;
+}
+
+
+
+.sub_section{
+    background: #dde5ff;
+    display: flex;
+    p{
+        margin-left: 20px;
+    }
+
+    .logo{
+        height: 100px;
+        border-radius: 15px;
+    }
+}
+
+
+/* Footer */
+footer {
+    background-color: #502c2c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .top-nav {
+        height: auto;
+    }
+
+    .top-nav nav {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .top-nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .top-nav li {
+        margin: 5px 0;
+        text-align: center;
+    }
+
+    main {
+        padding-top: 150px;
+    }
+}
