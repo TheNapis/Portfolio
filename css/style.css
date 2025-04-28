@@ -20,7 +20,7 @@ body {
 
 /* Navigation Bar */
 .top-nav {
-    height: 70px;
+    height: auto;
     width: 100%;
     background: #502c2c;
     top: 0;
@@ -28,24 +28,49 @@ body {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
 
+}
+.header-content::-webkit-scrollbar {
+    display: none;
+}
+.header-title {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
 .top-nav nav {
-    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0 20px;
+    padding: 0;
 }
-
 .top-nav ul {
     display: flex;
+    flex-wrap: nowrap;
     list-style: none;
+    overflow: hidden; /* Prevent scrolling completely */
+    width: 100%;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
 }
-
+/* Hide scrollbar for Chrome, Safari and Opera */
+.top-nav ul::-webkit-scrollbar {
+    display: none;
+}
 .top-nav li {
-    margin: 0 15px;
+    margin: 0 10px;
+    white-space: nowrap;
 }
-
 .top-nav a {
     color: white;
     text-decoration: none;
@@ -54,14 +79,13 @@ body {
     transition: color 0.3s;
     padding: 10px 5px;
 }
-
 .top-nav a:hover {
     color: #db3434;
 }
 
 /* Main Content */
 main {
-    padding-top: 90px; /* To account for fixed navbar */
+    padding-top: 120px; /* To account for fixed navbar with stacked elements */
     max-width: 1200px;
     margin: 0 auto;
     padding-bottom: 50px;
@@ -74,7 +98,6 @@ section {
     border-radius: 8px;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
 }
-
 section h1 {
     color: #502c2c;
     margin-bottom: 20px;
@@ -85,12 +108,16 @@ section h1 {
 
 
 .sub_section{
-    background: #dde5ff;
     display: flex;
+    text-decoration: none;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    align-items: center;
     p{
         margin-left: 20px;
+        color: black;
     }
-
     .logo{
         height: 100px;
         border-radius: 15px;
@@ -109,10 +136,6 @@ footer {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .top-nav {
-        height: auto;
-    }
-
     .top-nav nav {
         flex-direction: column;
         padding: 10px;
@@ -129,6 +152,6 @@ footer {
     }
 
     main {
-        padding-top: 150px;
+        padding-top: 200px; /* Increased padding for mobile to account for stacked nav items */
     }
 }

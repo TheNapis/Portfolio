@@ -9,78 +9,111 @@
     <title>Portfolio de Naël Maanli</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="poppins-regular">
     <header class="top-nav">
-        <nav>
-            <ul>
-                <li><a href="#introduction">Introduction</a></li>
-                <li><a href="#cv">Mon CV</a></li>
-                <li><a href="#motivation">Lettre de motivation</a></li>
-                <li><a href="#college">Mes projets scolaires</a></li>
-                <li><a href="#experiences">Mes expériences personnelles</a></li>
-                <li><a href="#projects">Mes projets personnels</a></li>
-            </ul>
-        </nav>
+        <div class="header-content">
+            <h1 class="header-title">Portfolio de Naël Maanli</h1>
+            <nav>
+                <ul>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#cv">Mon CV</a></li>
+                    <li><a href="#motivation">Lettre de motivation</a></li>
+                    <li><a href="#college">Mes projets scolaires</a></li>
+                    <li><a href="#experiences">Mes expériences personnelles</a></li>
+                    <li><a href="#projects">Mes projets personnels</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
         <section id="introduction">
             <h1><strong>Bienvenue sur mon portfolio</strong></h1>
-            <p>Bonjour ! Je suis Naël Maanli, je suis actuellement en première année d'études pour devenir ingénieur en Informatique à l'I.U.T. de Nantes et Polytech Nantes.</p>
+            <p>Bonjour ! Je suis Naël Maanli, je suis actuellement en première année de PeiP D (Parcours des écoles d'ingénieurs Polytech) à I.U.T. de Nantes pour faire un diplôme d'ingénieur en informatique.  </p>
         </section>
 
 
 
         <section id="cv">
             <h1>Mon CV (Curriculum Vitae)</h1>
+            <div style="display: flex; align-items: center; gap: 20px;">
+                <a href="https://1drv.ms/b/s!Akf1hnOQifJEg9cgXX_mcLn2zxH2Og?e=qjP7oH"><img src="assets/photo_CV.png" style="height: 300px" alt="Photo de mon CV"></a>
+                <h2>Vous pouvez retrouver mon CV en cliquant sur le bouton.</h2>
+                <a href="https://1drv.ms/b/s!Akf1hnOQifJEg9cgXX_mcLn2zxH2Og?e=qjP7oH" style="display: inline-block; background-color: #502c2c; color: white; padding: 12px 24px; border-radius: 15px; text-decoration: none; font-weight: bold; transition: background-color 0.3s, transform 0.2s;" onmouseover="this.style.backgroundColor='#db3434'; this.style.transform='scale(1.05)'" onmouseout="this.style.backgroundColor='#502c2c'; this.style.transform='scale(1)'">Télécharger CV</a>
+            </div>
 
             <!-- CV content goes here -->
         </section>
 
         <section id="motivation">
             <h1>Lettre de motivation</h1>
-            <p>Here you can find my motivation letter explaining my career goals and aspirations.</p>
+            <p>Lettre de motivation </p>
             <!-- Motivation letter content goes here -->
         </section>
 
         <section id="college">
             <h1>Mes projets scolaires</h1>
-            <p>A showcase of projects I completed during my academic studies.</p>
-            <section class="sub_section" style="background: #ffffc0; display: flex; flex-wrap: wrap; justify-content: space-around;">
+            <p style="margin-bottom: 20px">Cliquer sur le projet pour accèder à sa page principale ou à la vidéo du projet.</p>
+
+            <a class="sub_section" href="https://gitlab.univ-nantes.fr/E24A919F/maanli_touraine_quadtree_r101" style="display: flex; flex-wrap: wrap; justify-content: space-around; background: #ffe4c0 ; margin-bottom: 50px; padding: 12px 24px; border-radius: 15px; text-decoration: none;  transition: background-color 0.3s, transform 0.2s;" onmouseover="this.style.backgroundColor='#ffce8d'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor='#ffe4c0'; this.style.transform='scale(1)'">
                 <img class="logo" src="assets/logo_Quadtree.png" alt="Logo Quadtree">
-                <p><a href="https://github.com/TheNapis/ASAM"></a><strong>Quadtree of HOPE</strong> est un jeu que nous avons dans le cadre d'un projet de fin de semestre de première année.</p>
+                <p><strong>Quadtree of HOPE</strong> est un jeu que nous avons dans le cadre d'un projet de fin de semestre de première année.</p>
                 <img src="assets/quadtree_demo.png" alt="Demo Quadtree" style="height: 500px">
-            </section>
+            </a>
+
+
+            <a class="sub_section" href="https://1drv.ms/v/s!Akf1hnOQifJEg9dCEBz_FFDRj1EmLg?e=lmG9ho" style="display: flex; flex-wrap: wrap; justify-content: space-around; background: #c0ffec ; margin-bottom: 50px; padding: 12px 24px; border-radius: 15px; text-decoration: none;  transition: background-color 0.3s, transform 0.2s;" onmouseover="this.style.backgroundColor='#88fbd8'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor='#c0ffec'; this.style.transform='scale(1)'">
+                <img  src="assets/logo_Aerobadge.png" alt="Logo Quadtree" style="height: 200px">
+                <p><strong>Aérobadge</strong> est un projet de BAC que nous avons fait en groupe de quatre et que nous avons présenté notamment au Grand Oral.</p>
+                <p>Je vous invite à aller regarder la vidéo du projet en cliquant sur le cadre.</p>
+                <img src="assets/aerobadge_maquetteV1.png" alt="Demo Quadtree" style="height: 500px">
+            </a>
+
         </section>
 
         <section id="experiences">
             <h1>Mes expériences personnelles</h1>
-            <p>My personal experiences that have shaped my professional journey.</p>
-            <!-- Personal experiences content goes here -->
+            <section class="sub_section" style="background: #e4e4e4; display: flex; flex-wrap: wrap; justify-content: space-around;">
+                <h2>Stage de troisième : Magasin de réparation</h2>
+                <p>Chez CALONNA, Magasin d'informatique et Réparations à Chalonnes-sur-Loire (49) en janvier 2021</p>
+            </section>
+            <section class="sub_section" style="background: #e4e4e4; display: flex; flex-wrap: wrap; justify-content: space-around; margin-bottom: 0;">
+                <h2>Bénévole dans l'association des jeunes et de la culture de Saint-Georges-sur-Loire (49)</h2>
+                <p>Participation à des évènements comme Toutenkarton (2022-2023) et Georges fait son Chaud (2022-2024) </p>
+            </section>
+
         </section>
 
         <section id="projects">
             <h1>Mes projets personnels</h1>
-            <section class="sub_section">
+            <p style="margin-bottom: 20px">Cliquer sur le projet pour accèder à sa page principale.</p>
+
+            <a class="sub_section" href="https://github.com/TheNapis/ASAM" style="background: #dde5ff ; margin-bottom: 50px; padding: 12px 24px; border-radius: 15px; text-decoration: none;  transition: background-color 0.3s, transform 0.2s;" onmouseover="this.style.backgroundColor='#b5c6ff'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor='#dde5ff'; this.style.transform='scale(1)'">
                 <img class="logo" src="assets/logo_ASAM.png" alt="Logo de ASAM">
-                <p><a href="https://github.com/TheNapis/ASAM"></a><strong>ASAM</strong> un logiciel qui consiste à simplifier l'utilisation de matériel informatique pour les enseignants et les élèves d'écoles primaires qui ne sont pas forcément à l'aise en informatique.</p>
-            </section>
-            <section class="sub_section" style="background: #d8c8ff">
+                <p><strong>ASAM</strong> un logiciel qui consiste à simplifier l'utilisation de matériel informatique pour les enseignants et les élèves d'écoles primaires qui ne sont pas forcément à l'aise en informatique.</p>
+            </a>
+
+            <a class="sub_section" href="https://gitlab.univ-nantes.fr/E24A919F/nantibus" style="background: #d8c8ff ; margin-bottom: 50px; padding: 12px 24px; border-radius: 15px; text-decoration: none;  transition: background-color 0.3s, transform 0.2s;" onmouseover="this.style.backgroundColor='#b9a0fa'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor='#d8c8ff'; this.style.transform='scale(1)'">
                 <img class="logo" src="assets/logo_Nantibus.png" alt="Logo de Nantibus">
-                <p><a href="https://github.com/TheNapis/ASAM"></a><strong>Nantibus</strong> est une application mobile, qui reprend les open datas disponibles du réseau de transport Nantais pour en faire une application ergonomique et interactive avec une carte, liste des arrêts, listes des différentes lignes, et autres qui simplifient l'utilisation et la compréhension des applications liées au transport dans la métropole. <strong>C'est un projet collaboratif !!</strong></p>
-            </section>
-            <section class="sub_section" style="background: #ceffc8">
+                <p><strong>Nantibus</strong> est une application mobile, qui reprend les open datas disponibles du réseau de transport Nantais pour en faire une application ergonomique et interactive avec une carte, liste des arrêts, listes des différentes lignes, et autres qui simplifient l'utilisation et la compréhension des applications liées au transport dans la métropole. <strong>C'est un projet collaboratif !!</strong></p>
+            </a>
+
+            <a class="sub_section" href="https://github.com/TheNapis/Bibliom" style="background: #ceffc8 ; padding: 12px 24px; border-radius: 15px; text-decoration: none;  transition: background-color 0.3s, transform 0.2s;" onmouseover="this.style.backgroundColor='#a7ff9e'; this.style.transform='scale(1.01)'" onmouseout="this.style.backgroundColor='#ceffc8'; this.style.transform='scale(1)'">
                 <img class="logo" src="assets/logo_Bibliom.png" alt="Logo de Bibliom">
-                <p><a href="https://github.com/TheNapis/ASAM"></a><strong>Bibliom</strong> est un logiciel simplifié de gestion d'une BCD ou de mini à grande Bibliothèque.</p>
-            </section>
+                <p><strong>Bibliom</strong> est un logiciel simplifié de gestion d'une BCD ou de mini à grande Bibliothèque.</p>
+            </a>
+        </section>
 
-
-
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>Numéro de téléphone : 06-37-00-00-00</p>
+            <p>Mail : nael.maanli@--------------.---</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; Portfolio de Naël Maanli</p>
+        <p>Portfolio de Naël Maanli, dernière mise à jour le 27/04/2025</p>
     </footer>
 </body>
 </html>
