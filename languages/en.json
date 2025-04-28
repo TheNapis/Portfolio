@@ -9,8 +9,8 @@
     "projects": "Personal Projects"
   },
   "introduction": {
-    "welcome": "Welcome to my portfolio",
-    "description": "Hello! I'm Naël Maanli, currently in my first year of PeiP D (Polytech Engineering Schools Program) at I.U.T. of Nantes to earn a degree in computer engineering."
+    "welcome": "Welcome to my portfolio !!!",
+    "description": "Hello! I'm Naël Maanli, currently in my first year of PeiP D (Parcours des écoles d'ingénieurs Polytech) at I.U.T. of Nantes to earn a degree in computer engineering."
   },
   "cv": {
     "title": "My CV (Curriculum Vitae)",
@@ -19,7 +19,8 @@
   },
   "motivation": {
     "title": "Motivation Letter",
-    "description": "Motivation Letter"
+    "description": "You can find my motivation letter by clicking on the button.",
+    "button": "Download MY motivation letter"
   },
   "college": {
     "title": "Academic Projects",
@@ -30,7 +31,7 @@
     },
     "aerobadge": {
       "title": "Aerobadge",
-      "description": "is a high school project that we completed as a group of four and presented at the Grand Oral examination.",
+      "description": "is a high school project that we completed as a group of four and presented at the Grand Oral.",
       "note": "I invite you to watch the project video by clicking on the frame."
     }
   },
@@ -50,13 +51,13 @@
     "title": "Personal Projects",
     "description": "Click on the project to access its main page.",
     "asam": {
-      "description": "ASAM is software designed to simplify the use of computer equipment for primary school teachers and students who may not be comfortable with technology."
+      "description": "is software designed to simplify the use of numeric equipment for primary school teachers and students who may not be comfortable with technology."
     },
     "nantibus": {
-      "description": "Nantibus is a mobile application that uses available open data from the Nantes transport network to create an ergonomic and interactive application with a map, list of stops, lists of different lines, and other features that simplify the use and understanding of transport-related applications in the metropolis. It's a collaborative project!!"
+      "description": "is a mobile application that uses available open data from the Nantes transport network to create an ergonomic and interactive application with a map, list of stops, lists of different lines, and other features that simplify the use and understanding of transport-related applications in the metropolis. It's a collaborative project!!"
     },
     "bibliom": {
-      "description": "Bibliom is simplified software for managing a BCD or small to large library."
+      "description": "is simplified software for managing a BCD or small to large library."
     }
   },
   "contact": {
@@ -66,5 +67,18 @@
   },
   "footer": {
     "copyright": "Naël Maanli's Portfolio, last updated on 04/27/2025"
+  },
+  "alt": {
+    "bicycle": "Bicycle",
+    "logo_quadtree": "Quadtree Logo",
+    "demo_quadtree": "Quadtree Demo",
+    "logo_aerobadge": "Aerobadge Logo",
+    "demo_aerobadge": "Aerobadge Demo",
+    "logo_asam": "ASAM Logo",
+    "logo_nantibus": "Nantibus Logo",
+    "logo_bibliom": "Bibliom Logo",
+    "music": "Music",
+    "climbing": "Climbing",
+    "computer": "Computer"
   }
 }

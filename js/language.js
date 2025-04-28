@@ -80,7 +80,8 @@ function updateContent() {
 
     // Update motivation section
     document.querySelector('#motivation h1').textContent = translations.motivation.title;
-    document.querySelector('#motivation p').textContent = translations.motivation.description;
+    document.querySelector('#motivation h2').textContent = translations.motivation.description;
+    document.querySelector('#motivation a[style*="display: inline-block"]').textContent = translations.motivation.button;
 
     // Update college section
     document.querySelector('#college h1').textContent = translations.college.title;
@@ -162,4 +163,63 @@ function updateContent() {
 
     // Update footer
     document.querySelector('footer p').textContent = translations.footer.copyright;
+
+    // Update alt texts for images
+    // Bicycle images
+    const bicycleImages = document.querySelectorAll('img[src*="passions/bicycle.png"]');
+    bicycleImages.forEach(img => {
+        img.alt = translations.alt.bicycle;
+    });
+
+    // Project logos and demos
+    const quadtreeLogo = document.querySelector('img[src*="logo_Quadtree.png"]');
+    if (quadtreeLogo) {
+        quadtreeLogo.alt = translations.alt.logo_quadtree;
+    }
+
+    const quadtreeDemo = document.querySelector('img[src*="quadtree_demo.png"]');
+    if (quadtreeDemo) {
+        quadtreeDemo.alt = translations.alt.demo_quadtree;
+    }
+
+    const aerobadgeLogo = document.querySelector('img[src*="logo_Aerobadge.png"]');
+    if (aerobadgeLogo) {
+        aerobadgeLogo.alt = translations.alt.logo_aerobadge;
+    }
+
+    const aerobadgeDemo = document.querySelector('img[src*="aerobadge_maquetteV1.png"]');
+    if (aerobadgeDemo) {
+        aerobadgeDemo.alt = translations.alt.demo_aerobadge;
+    }
+
+    const asamLogo = document.querySelector('img[src*="logo_ASAM.png"]');
+    if (asamLogo) {
+        asamLogo.alt = translations.alt.logo_asam;
+    }
+
+    const nantibusLogo = document.querySelector('img[src*="logo_Nantibus.png"]');
+    if (nantibusLogo) {
+        nantibusLogo.alt = translations.alt.logo_nantibus;
+    }
+
+    const bibliomLogo = document.querySelector('img[src*="logo_Bibliom.png"]');
+    if (bibliomLogo) {
+        bibliomLogo.alt = translations.alt.logo_bibliom;
+    }
+
+    // Other passion images
+    const musicImage = document.querySelector('img[src*="passions/music.png"]');
+    if (musicImage) {
+        musicImage.alt = translations.alt.music;
+    }
+
+    const climbingImage = document.querySelector('img[src*="passions/climbing.png"]');
+    if (climbingImage) {
+        climbingImage.alt = translations.alt.climbing;
+    }
+
+    const computerImage = document.querySelector('img[src*="passions/computer.png"]');
+    if (computerImage) {
+        computerImage.alt = translations.alt.computer;
+    }
 }

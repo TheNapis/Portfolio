@@ -9,17 +9,18 @@
     "projects": "Mes projets personnels"
   },
   "introduction": {
-    "welcome": "Bienvenue sur mon portfolio",
-    "description": "Bonjour ! Je suis Naël Maanli, je suis actuellement en première année de PeiP D (Parcours des écoles d'ingénieurs Polytech) à I.U.T. de Nantes pour faire un diplôme d'ingénieur en informatique."
+    "welcome": "Bienvenue sur mon portfolio !!!",
+    "description": "Bonjour ! Je suis Naël Maanli, je suis actuellement en première année de PeiP D (Parcours des écoles d'ingénieurs Polytech) à I.U.T. de Nantes pour faire un diplôme d'ingénieur en informatique. Si je peux me décrire, je dirai que je suis peu touche à tout et une personne qui aime découvrir des choses. "
   },
   "cv": {
     "title": "Mon CV (Curriculum Vitae)",
-    "button": "Télécharger CV",
+    "button": "Télécharger",
     "description": "Vous pouvez retrouver mon CV en cliquant sur le bouton."
   },
   "motivation": {
     "title": "Lettre de motivation",
-    "description": "Lettre de motivation"
+    "description": "Vous pouvez retrouver ma lettre de motivation en cliquant sur le bouton.",
+    "button": "Télécharger"
   },
   "college": {
     "title": "Mes projets scolaires",
@@ -50,13 +51,13 @@
     "title": "Mes projets personnels",
     "description": "Cliquer sur le projet pour accèder à sa page principale.",
     "asam": {
-      "description": "ASAM un logiciel qui consiste à simplifier l'utilisation de matériel informatique pour les enseignants et les élèves d'écoles primaires qui ne sont pas forcément à l'aise en informatique."
+      "description": "un logiciel qui consiste à simplifier l'utilisation de matériel informatique pour les enseignants et les élèves d'écoles primaires qui ne sont pas forcément à l'aise en informatique."
     },
     "nantibus": {
-      "description": "Nantibus est une application mobile, qui reprend les open datas disponibles du réseau de transport Nantais pour en faire une application ergonomique et interactive avec une carte, liste des arrêts, listes des différentes lignes, et autres qui simplifient l'utilisation et la compréhension des applications liées au transport dans la métropole. C'est un projet collaboratif !!"
+      "description": "est une application mobile, qui reprend les open datas disponibles du réseau de transport Nantais pour en faire une application ergonomique et interactive avec une carte, liste des arrêts, listes des différentes lignes, et autres qui simplifient l'utilisation et la compréhension des applications liées au transport dans la métropole. C'est un projet collaboratif !!"
     },
     "bibliom": {
-      "description": "Bibliom est un logiciel simplifié de gestion d'une BCD ou de mini à grande Bibliothèque."
+      "description": "est un logiciel simplifié de gestion d'une BCD ou de mini à grande Bibliothèque."
     }
   },
   "contact": {
@@ -66,5 +67,18 @@
   },
   "footer": {
     "copyright": "Portfolio de Naël Maanli, dernière mise à jour le 27/04/2025"
+  },
+  "alt": {
+    "bicycle": "Vélo",
+    "logo_quadtree": "Logo Quadtree",
+    "demo_quadtree": "Démo Quadtree",
+    "logo_aerobadge": "Logo Aérobadge",
+    "demo_aerobadge": "Démo Aérobadge",
+    "logo_asam": "Logo de ASAM",
+    "logo_nantibus": "Logo de Nantibus",
+    "logo_bibliom": "Logo de Bibliom",
+    "music": "Musique",
+    "climbing": "Escalade",
+    "computer": "Ordinateur"
   }
 }

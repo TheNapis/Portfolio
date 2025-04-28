@@ -1,3 +1,4 @@
+/* Font */
 .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -5,13 +6,12 @@
 }
 
 
-/* Global Styles */
+/* Global */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background-color: #f5f5f5;
     color: #333;
@@ -62,6 +62,7 @@ body {
     width: 100%;
     scrollbar-width: none; /* For Firefox */
     -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    justify-content: center; /* Center items horizontally */
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 .top-nav ul::-webkit-scrollbar {
@@ -165,6 +166,30 @@ footer {
 
 
 
+
+/* Bicycle Animation */
+.bicycle-container {
+    position: relative;
+    height: 60px;
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.bicycle {
+    position: absolute;
+    height: 50px;
+    animation: slide 8s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        left: -100px;
+    }
+    100% {
+        left: 100%;
+    }
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
