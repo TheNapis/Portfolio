@@ -1,0 +1,70 @@
+{
+  "title": "Portfolio de Naël Maanli",
+  "nav": {
+    "introduction": "Introduction",
+    "cv": "Mon CV",
+    "motivation": "Lettre de motivation",
+    "college": "Mes projets scolaires",
+    "experiences": "Mes expériences personnelles",
+    "projects": "Mes projets personnels"
+  },
+  "introduction": {
+    "welcome": "Bienvenue sur mon portfolio",
+    "description": "Bonjour ! Je suis Naël Maanli, je suis actuellement en première année de PeiP D (Parcours des écoles d'ingénieurs Polytech) à I.U.T. de Nantes pour faire un diplôme d'ingénieur en informatique."
+  },
+  "cv": {
+    "title": "Mon CV (Curriculum Vitae)",
+    "button": "Télécharger CV",
+    "description": "Vous pouvez retrouver mon CV en cliquant sur le bouton."
+  },
+  "motivation": {
+    "title": "Lettre de motivation",
+    "description": "Lettre de motivation"
+  },
+  "college": {
+    "title": "Mes projets scolaires",
+    "description": "Cliquer sur le projet pour accèder à sa page principale ou à la vidéo du projet.",
+    "quadtree": {
+      "title": "Quadtree of HOPE",
+      "description": "est un jeu que nous avons dans le cadre d'un projet de fin de semestre de première année."
+    },
+    "aerobadge": {
+      "title": "Aérobadge",
+      "description": "est un projet de BAC que nous avons fait en groupe de quatre et que nous avons présenté notamment au Grand Oral.",
+      "note": "Je vous invite à aller regarder la vidéo du projet en cliquant sur le cadre."
+    }
+  },
+  "experiences": {
+    "title": "Mes expériences personnelles",
+    "description": "Mes expériences personnelles qui ont façonné mon parcours professionnel.",
+    "internship": {
+      "title": "Stage de troisième : Magasin de réparation",
+      "description": "Chez CALONNA, Magasin d'informatique et Réparations à Chalonnes-sur-Loire (49) en janvier 2021"
+    },
+    "volunteer": {
+      "title": "Bénévole dans l'association des jeunes et de la culture de Saint-Georges-sur-Loire (49)",
+      "description": "Participation à des évènements comme Toutenkarton (2022-2023) et Georges fait son Chaud (2022-2024)"
+    }
+  },
+  "projects": {
+    "title": "Mes projets personnels",
+    "description": "Cliquer sur le projet pour accèder à sa page principale.",
+    "asam": {
+      "description": "ASAM un logiciel qui consiste à simplifier l'utilisation de matériel informatique pour les enseignants et les élèves d'écoles primaires qui ne sont pas forcément à l'aise en informatique."
+    },
+    "nantibus": {
+      "description": "Nantibus est une application mobile, qui reprend les open datas disponibles du réseau de transport Nantais pour en faire une application ergonomique et interactive avec une carte, liste des arrêts, listes des différentes lignes, et autres qui simplifient l'utilisation et la compréhension des applications liées au transport dans la métropole. C'est un projet collaboratif !!"
+    },
+    "bibliom": {
+      "description": "Bibliom est un logiciel simplifié de gestion d'une BCD ou de mini à grande Bibliothèque."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "Numéro de téléphone : 06-37-00-00-00",
+    "email": "Mail : nael.maanli@--------------.---"
+  },
+  "footer": {
+    "copyright": "Portfolio de Naël Maanli, dernière mise à jour le 27/04/2025"
+  }
+}

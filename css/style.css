@@ -134,6 +134,38 @@ footer {
     width: 100%;
 }
 
+/* Language Switcher */
+.language-switcher {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    z-index: 1001;
+    display: flex;
+    gap: 5px;
+}
+
+.lang-btn {
+    background-color: #502c2c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.lang-btn:hover {
+    background-color: #db3434;
+}
+
+.lang-btn.active {
+    background-color: #db3434;
+}
+
+
+
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .top-nav nav {

@@ -1,0 +1,70 @@
+{
+  "title": "Naël Maanli's Portfolio",
+  "nav": {
+    "introduction": "Introduction",
+    "cv": "My CV",
+    "motivation": "Motivation Letter",
+    "college": "Academic Projects",
+    "experiences": "Personal Experiences",
+    "projects": "Personal Projects"
+  },
+  "introduction": {
+    "welcome": "Welcome to my portfolio",
+    "description": "Hello! I'm Naël Maanli, currently in my first year of PeiP D (Polytech Engineering Schools Program) at I.U.T. of Nantes to earn a degree in computer engineering."
+  },
+  "cv": {
+    "title": "My CV (Curriculum Vitae)",
+    "button": "Download CV",
+    "description": "You can find my CV by clicking on the button."
+  },
+  "motivation": {
+    "title": "Motivation Letter",
+    "description": "Motivation Letter"
+  },
+  "college": {
+    "title": "Academic Projects",
+    "description": "Click on the project to access its main page or project video.",
+    "quadtree": {
+      "title": "Quadtree of HOPE",
+      "description": "is a game we developed as part of a first-year end-of-semester project."
+    },
+    "aerobadge": {
+      "title": "Aerobadge",
+      "description": "is a high school project that we completed as a group of four and presented at the Grand Oral examination.",
+      "note": "I invite you to watch the project video by clicking on the frame."
+    }
+  },
+  "experiences": {
+    "title": "Personal Experiences",
+    "description": "My personal experiences that have shaped my professional journey.",
+    "internship": {
+      "title": "9th Grade Internship: Repair Shop",
+      "description": "At CALONNA, Computer Store and Repairs in Chalonnes-sur-Loire (49) in January 2021"
+    },
+    "volunteer": {
+      "title": "Volunteer at the Youth and Culture Association of Saint-Georges-sur-Loire (49)",
+      "description": "Participation in events such as Toutenkarton (2022-2023) and Georges fait son Chaud (2022-2024)"
+    }
+  },
+  "projects": {
+    "title": "Personal Projects",
+    "description": "Click on the project to access its main page.",
+    "asam": {
+      "description": "ASAM is software designed to simplify the use of computer equipment for primary school teachers and students who may not be comfortable with technology."
+    },
+    "nantibus": {
+      "description": "Nantibus is a mobile application that uses available open data from the Nantes transport network to create an ergonomic and interactive application with a map, list of stops, lists of different lines, and other features that simplify the use and understanding of transport-related applications in the metropolis. It's a collaborative project!!"
+    },
+    "bibliom": {
+      "description": "Bibliom is simplified software for managing a BCD or small to large library."
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "Phone number: 06-37-00-00-00",
+    "email": "Email: nael.maanli@--------------.---"
+  },
+  "footer": {
+    "copyright": "Naël Maanli's Portfolio, last updated on 04/27/2025"
+  }
+}
