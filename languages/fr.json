@@ -1,73 +1,41 @@
 {
-  "title": "Portfolio de Naël Maanli",
-  "nav": {
-    "introduction": "Introduction",
-    "cv": "Mon CV",
-    "motivation": "Lettre de motivation",
-    "college": "Mes projets scolaires",
-    "experiences": "Mes expériences personnelles",
-    "projects": "Mes projets personnels"
-  },
-  "introduction": {
-    "welcome": "Bienvenue sur mon portfolio !!!",
-    "description": "Bonjour ! Je suis Naël Maanli, je suis actuellement en première année de PeiP D (Parcours des écoles d'ingénieurs Polytech) à I.U.T. de Nantes pour faire un diplôme d'ingénieur en informatique. Si je peux me décrire, je dirai que je suis peu touche à tout et une personne qui aime découvrir des choses. "
-  },
-  "cv": {
-    "title": "Mon CV (Curriculum Vitae)",
-    "button": "Télécharger",
-    "description": "Vous pouvez retrouver mon CV en cliquant sur le bouton."
-  },
-  "motivation": {
-    "title": "Lettre de motivation",
-    "description": "Vous pouvez retrouver ma lettre de motivation en cliquant sur le bouton.",
-    "button": "Télécharger"
-  },
-  "college": {
-    "title": "Mes projets scolaires",
-    "description": "Cliquer sur le projet pour accèder à sa page principale ou à la vidéo du projet.",
-    "quadtree": {
-      "title": "Quadtree of HOPE",
-      "description": "est un jeu que nous avons dans le cadre d'un projet de fin de semestre de première année."
-    },
-    "aerobadge": {
-      "title": "Aérobadge",
-      "description": "est un projet de BAC que nous avons fait en groupe de quatre et que nous avons présenté notamment au Grand Oral.",
-      "note": "Je vous invite à aller regarder la vidéo du projet en cliquant sur le cadre."
-    }
-  },
-  "experiences": {
-    "title": "Mes expériences personnelles",
-    "description": "Mes expériences personnelles qui ont façonné mon parcours professionnel.",
-    "internship": {
-      "title": "Stage de troisième : Magasin de réparation",
-      "description": "Chez CALONNA, Magasin d'informatique et Réparations à Chalonnes-sur-Loire (49) en janvier 2021"
-    },
-    "volunteer": {
-      "title": "Bénévole dans l'association des jeunes et de la culture de Saint-Georges-sur-Loire (49)",
-      "description": "Participation à des évènements comme Toutenkarton (2022-2023) et Georges fait son Chaud (2022-2024)"
-    }
-  },
-  "projects": {
-    "title": "Mes projets personnels",
-    "description": "Cliquer sur le projet pour accèder à sa page principale.",
-    "asam": {
-      "description": "un logiciel qui consiste à simplifier l'utilisation de matériel informatique pour les enseignants et les élèves d'écoles primaires qui ne sont pas forcément à l'aise en informatique."
-    },
-    "nantibus": {
-      "description": "est une application mobile, qui reprend les open datas disponibles du réseau de transport Nantais pour en faire une application ergonomique et interactive avec une carte, liste des arrêts, listes des différentes lignes, et autres qui simplifient l'utilisation et la compréhension des applications liées au transport dans la métropole. C'est un projet collaboratif !!"
-    },
-    "bibliom": {
-      "description": "est un logiciel simplifié de gestion d'une BCD ou de mini à grande Bibliothèque."
-    }
-  },
-  "contact": {
-    "title": "Contact",
-    "phone": "Numéro de téléphone : 06-37-21-43-91",
-    "email": "Mail : nael.maanli@gmail.com"
-  },
-  "footer": {
-    "copyright": "Portfolio de Naël Maanli, dernière mise à jour le 27/04/2025"
-  },
+  "header_title": "Portfolio de Naël Maanli",
+  "nav_introduction": "Introduction",
+  "nav_cv": "Mon CV",
+  "nav_motivation": "Lettre de motivation",
+  "nav_college": "Mes projets scolaires",
+  "nav_experiences": "Mes expériences personnelles",
+  "nav_projects": "Mes projets personnels",
+  "introduction_title": "Bienvenue sur mon portfolio !!!",
+  "introduction_text": "Bonjour ! Je suis Naël Maanli, un étudiant en deuxième année motivé, de PeiP D (Parcours des écoles d'ingénieurs Polytech) à Polytech Nantes et à l'Institut universitaire de technologie (IUT) de Nantes pour faire un diplôme d'ingénieur en informatique. Si je peux me décrire, je dirai que je suis peu touche à tout et une personne qui aime découvrir des choses.",
+  "cv_title": "Mon CV (Curriculum Vitae)",
+  "cv_text": "Vous pouvez retrouver mon CV en cliquant sur le bouton.",
+  "cv_button": "Télécharger",
+  "motivation_title": "Lettre de motivation",
+  "motivation_text": "Vous pouvez retrouver ma lettre de motivation en cliquant sur le bouton.",
+  "motivation_button": "Télécharger",
+  "college_title": "Mes projets scolaires",
+  "college_intro": "Cliquer sur le projet pour accèder à sa page principale ou à la vidéo du projet.",
+  "quadtree_desc": "est un jeu que nous avons dans le cadre d'un projet de fin de semestre de première année.",
+  "aerobadge_desc1": "est un projet de BAC que nous avons fait en groupe de quatre et que nous avons présenté notamment au Grand Oral.",
+  "aerobadge_desc2": "Je vous invite à aller regarder la vidéo du projet en cliquant sur le cadre.",
+  "experiences_title": "Mes expériences personnelles",
+  "stage_title": "Stage de troisième : Magasin de réparation",
+  "stage_desc": "Chez CALONNA, Magasin d'informatique et Réparations à Chalonnes-sur-Loire (49) en janvier 2021",
+  "benevolat_title": "Bénévole dans l'association des jeunes et de la culture de Saint-Georges-sur-Loire (49)",
+  "benevolat_desc": "Participation à des évènements comme Toutenkarton (2022-2023) et Georges fait son Chaud (2022-2024)",
+  "projects_title": "Mes projets personnels",
+  "projects_intro": "Cliquer sur le projet pour accèder à sa page principale.",
+  "asam_desc": "un logiciel qui consiste à simplifier l'utilisation de matériel informatique pour les enseignants et les élèves d'écoles primaires qui ne sont pas forcément à l'aise en informatique.",
+  "nantibus_desc": "est une application mobile, qui reprend les open datas disponibles du réseau de transport Nantais pour en faire une application ergonomique et interactive avec une carte, liste des arrêts, listes des différentes lignes, et autres qui simplifient l'utilisation et la compréhension des applications liées au transport dans la métropole. C'est un projet collaboratif !!",
+  "tvt_desc": "est une application de bureau qui utilise podman pour faciliter la gestion des conteneurs avec des commandes simplifiées et une interface graphique avec plusieurs fonctions utiles comme la gestion des réseaux virtuels.",
+  "bibliom_desc": "est un logiciel simplifié de gestion d'une BCD ou de mini à grande Bibliothèque.",
+  "contact_title": "Contact",
+  "contact_phone": "Numéro de téléphone : 06-37-21-43-91",
+  "contact_mail": "Mail : nael.maanli@gmail.com",
+  "contact_linkedin": "LinkedIn :",
+  "contact_link": "lien",
+  "footer_text": "Portfolio de Naël Maanli, dernière mise à jour le 25/11/2025",
   "alt": {
     "bicycle": "Vélo",
     "logo_quadtree": "Logo Quadtree",
@@ -77,6 +45,7 @@
     "logo_asam": "Logo de ASAM",
     "logo_nantibus": "Logo de Nantibus",
     "logo_bibliom": "Logo de Bibliom",
+    "logo_tvt": "Logo de theVirtualThings",
     "music": "Musique",
     "climbing": "Escalade",
     "computer": "Ordinateur"

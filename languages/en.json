@@ -1,73 +1,41 @@
 {
-  "title": "Naël Maanli's Portfolio",
-  "nav": {
-    "introduction": "Introduction",
-    "cv": "My CV",
-    "motivation": "Motivation Letter",
-    "college": "Academic Projects",
-    "experiences": "Personal Experiences",
-    "projects": "Personal Projects"
-  },
-  "introduction": {
-    "welcome": "Welcome to my portfolio !!!",
-    "description": "Hello! I'm Naël Maanli, currently in my first year of PeiP D (Parcours des écoles d'ingénieurs Polytech) at I.U.T. of Nantes to earn a degree in computer engineering."
-  },
-  "cv": {
-    "title": "My CV (Curriculum Vitae)",
-    "button": "Download CV",
-    "description": "You can find my CV by clicking on the button."
-  },
-  "motivation": {
-    "title": "Motivation Letter",
-    "description": "You can find my motivation letter by clicking on the button.",
-    "button": "Download MY motivation letter"
-  },
-  "college": {
-    "title": "Academic Projects",
-    "description": "Click on the project to access its main page or project video.",
-    "quadtree": {
-      "title": "Quadtree of HOPE",
-      "description": "is a game we developed as part of a first-year end-of-semester project."
-    },
-    "aerobadge": {
-      "title": "Aerobadge",
-      "description": "is a high school project that we completed as a group of four and presented at the Grand Oral.",
-      "note": "I invite you to watch the project video by clicking on the frame."
-    }
-  },
-  "experiences": {
-    "title": "Personal Experiences",
-    "description": "My personal experiences that have shaped my professional journey.",
-    "internship": {
-      "title": "9th Grade Internship: Repair Shop",
-      "description": "At CALONNA, Computer Store and Repairs in Chalonnes-sur-Loire (49) in January 2021"
-    },
-    "volunteer": {
-      "title": "Volunteer at the Youth and Culture Association of Saint-Georges-sur-Loire (49)",
-      "description": "Participation in events such as Toutenkarton (2022-2023) and Georges fait son Chaud (2022-2024)"
-    }
-  },
-  "projects": {
-    "title": "Personal Projects",
-    "description": "Click on the project to access its main page.",
-    "asam": {
-      "description": "is software designed to simplify the use of numeric equipment for primary school teachers and students who may not be comfortable with technology."
-    },
-    "nantibus": {
-      "description": "is a mobile application that uses available open data from the Nantes transport network to create an ergonomic and interactive application with a map, list of stops, lists of different lines, and other features that simplify the use and understanding of transport-related applications in the metropolis. It's a collaborative project!!"
-    },
-    "bibliom": {
-      "description": "is simplified software for managing a BCD or small to large library."
-    }
-  },
-  "contact": {
-    "title": "Contact",
-    "phone": "Phone number: 06-37-21-43-91",
-    "email": "Email: nael.maanli@gmail.com"
-  },
-  "footer": {
-    "copyright": "Naël Maanli's Portfolio, last updated on 04/27/2025"
-  },
+  "header_title": "Naël Maanli's Portfolio",
+  "nav_introduction": "Introduction",
+  "nav_cv": "My CV",
+  "nav_motivation": "Cover Letter",
+  "nav_college": "My school projects",
+  "nav_experiences": "My personal experiences",
+  "nav_projects": "My personal projects",
+  "introduction_title": "Welcome to my portfolio !!!",
+  "introduction_text": "Hello! I'm Naël Maanli, currently in my second year of PeiP D (Polytech Engineering School Pathway) at Polytech Nantes and the University Institute of Technology (IUT) of Nantes to pursue an engineering degree in computer science. If I had to describe myself, I'd say I'm a bit of a jack-of-all-trades and someone who loves discovering new things.",
+  "cv_title": "My CV (Curriculum Vitae)",
+  "cv_text": "You can find my CV by clicking the button.",
+  "cv_button": "Download",
+  "motivation_title": "Cover Letter",
+  "motivation_text": "You can find my cover letter by clicking the button.",
+  "motivation_button": "Download",
+  "college_title": "My school projects",
+  "college_intro": "Click on the project to access its main page or the project video.",
+  "quadtree_desc": "is a game we made as an end-of-semester project in the first year.",
+  "aerobadge_desc1": "is a high school graduation project we did as a group of four and presented at the Grand Oral.",
+  "aerobadge_desc2": "I invite you to watch the project video by clicking on the frame.",
+  "experiences_title": "My personal experiences",
+  "stage_title": "9th grade internship: Repair shop",
+  "stage_desc": "At CALONNA, IT shop and repairs in Chalonnes-sur-Loire (49) in January 2021",
+  "benevolat_title": "Volunteer at the youth and culture association of Saint-Georges-sur-Loire (49)",
+  "benevolat_desc": "Participation in events such as Toutenkarton (2022-2023) and Georges fait son Chaud (2022-2024)",
+  "projects_title": "My personal projects",
+  "projects_intro": "Click on the project to access its main page.",
+  "asam_desc": "a software designed to simplify the use of IT equipment for teachers and primary school students who are not necessarily comfortable with computers.",
+  "nantibus_desc": "is a mobile app that uses open data from the Nantes transport network to create an ergonomic and interactive application with a map, list of stops, different lines, and more to simplify the use and understanding of transport-related apps in the city. It's a collaborative project!!",
+  "tvt_desc": "is a desktop application using podman to make container management easier with simplified commands and a graphical interface with several useful features such as virtual network management.",
+  "bibliom_desc": "is a simplified software for managing a BCD or small to large library.",
+  "contact_title": "Contact",
+  "contact_phone": "Phone number: 06-37-21-43-91",
+  "contact_mail": "Email: nael.maanli@gmail.com",
+  "contact_linkedin": "LinkedIn:",
+  "contact_link": "link",
+  "footer_text": "Naël Maanli's Portfolio, last updated on 11/25/2025",
   "alt": {
     "bicycle": "Bicycle",
     "logo_quadtree": "Quadtree Logo",
@@ -77,6 +45,7 @@
     "logo_asam": "ASAM Logo",
     "logo_nantibus": "Nantibus Logo",
     "logo_bibliom": "Bibliom Logo",
+    "logo_tvt": "theVirtualThings Logo",
     "music": "Music",
     "climbing": "Climbing",
     "computer": "Computer"
