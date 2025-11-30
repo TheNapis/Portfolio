@@ -26,10 +26,10 @@ function changeLanguage(lang) {
     document.querySelector('.header-title').textContent = translations[lang].header_title;
     
     const navLinks = document.querySelectorAll('nav ul li a');
-    const navKeys = ['nav_introduction','nav_cv','nav_motivation','nav_college','nav_experiences','nav_projects'];
+    const navKeys = ['nav_introduction','nav_college','nav_experiences','nav_projects','nav_contact'];
     for (let i = 0; i < navLinks.length && i < navKeys.length; i++) {
         const key = navKeys[i];
-        if (translations[lang][key]) {
+        if (translations[lang] && translations[lang][key]) {
             navLinks[i].textContent = translations[lang][key];
         }
     }

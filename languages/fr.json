@@ -6,6 +6,7 @@
   "nav_college": "Mes projets scolaires",
   "nav_experiences": "Mes expériences personnelles",
   "nav_projects": "Mes projets personnels",
+  "nav_contact": "Contact",
   "introduction_title": "Bienvenue sur mon portfolio !!!",
   "introduction_text": "Bonjour ! Je suis Naël Maanli, un étudiant en deuxième année motivé, de PeiP D (Parcours des écoles d'ingénieurs Polytech) à Polytech Nantes et à l'Institut universitaire de technologie (IUT) de Nantes pour faire un diplôme d'ingénieur en informatique. Si je peux me décrire, je dirai que je suis peu touche à tout et une personne qui aime découvrir des choses.",
   "cv_title": "Mon CV (Curriculum Vitae)",
@@ -35,7 +36,7 @@
   "contact_mail": "Mail : nael.maanli@gmail.com",
   "contact_linkedin": "LinkedIn :",
   "contact_link": "lien",
-  "footer_text": "Portfolio de Naël Maanli, dernière mise à jour le 25/11/2025",
+  "footer_text": "Portfolio de Naël Maanli, dernière mise à jour le 30/11/2025",
   "alt": {
     "bicycle": "Vélo",
     "logo_quadtree": "Logo Quadtree",
